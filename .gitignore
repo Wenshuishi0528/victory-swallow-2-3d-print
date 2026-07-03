@@ -1,0 +1,10 @@
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.bak
+
+# Bambu Studio temporary/cache exports
+*.gcode
+*.gcode.3mf
+*.bgcode
