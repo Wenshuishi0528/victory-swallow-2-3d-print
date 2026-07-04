@@ -2,21 +2,41 @@
 
 胜利飞燕2号 四色分件 3D 打印模型
 
-![Assembled preview](images/preview-assembled.jpeg)
+![Author's 0.4 mm nozzle print](images/printed-0.4mm-assembled-main.jpeg)
 
-This repository contains an unofficial fan-made, color-separated 3D printable model inspired by Victory Swallow 2. The release is prepared as a print-ready Bambu Studio 3MF project with a target width of about 20 cm.
+This repository contains an unofficial fan-made, color-separated 3D printable model inspired by Victory Swallow 2. The latest release is a revised print-ready Bambu Studio 3MF project with a target width of about 20 cm.
 
-这是一个非官方粉丝制作的胜利飞燕2号 3D 打印模型，已做四色分件和 Bambu Studio 打印排版，目标成品宽度约 20 cm。
+这是一个非官方粉丝制作的胜利飞燕2号 3D 打印模型。最新版已经重新修正为可打印的四色分件 Bambu Studio 3MF 项目，目标成品宽度约 20 cm。
+
+The cover photo above shows the author's real print using a 0.4 mm nozzle. It can be printed this way, but the detail precision is only fair at the original scale, and glue was used for assembly. For the original-scale model, a 0.2 mm nozzle is recommended. If using a 0.4 mm nozzle, scale the model to at least 120%.
+
+首页图是作者使用 0.4 mm 打印头打印出的实物。0.4 mm 打印头可以打出来，但原始比例下细节精度一般，装配时使用了胶水。原始比例建议使用 0.2 mm 打印头；如果使用 0.4 mm 打印头，建议至少放大到 120% 以上再打印。
+
+## Latest Update
+
+`v1.1.0` fixes a blocking printability issue in the previous `v1.0.0` release. Please use `v1.1.0` or newer for printing.
+
+`v1.1.0` 修复了旧版 `v1.0.0` 中会导致无法顺利打印的问题。请使用 `v1.1.0` 或更新版本进行打印。
 
 ## Download
 
 The main printable file is:
 
-- [`models/victory-swallow-2_20cm_4color_v1.0.0.3mf`](models/victory-swallow-2_20cm_4color_v1.0.0.3mf)
+- [`models/victory-swallow-2_20cm_4color_v1.1.0.3mf`](models/victory-swallow-2_20cm_4color_v1.1.0.3mf)
 
 Open the 3MF file in Bambu Studio, review the plates and filament mapping, then slice or print with your own machine settings.
 
-## Preview
+## Real Print Photos
+
+![0.4 mm nozzle detail photo](images/printed-0.4mm-assembled-detail.jpeg)
+
+The assembled photos were printed with a 0.4 mm nozzle. They show that the model is printable, but also show why a 0.2 mm nozzle is recommended for the original-scale file.
+
+以上装配实物图使用 0.4 mm 打印头打印，可以证明模型能打印出来；同时也能看到原始比例下细节会偏粗，所以原始比例更推荐 0.2 mm 打印头。
+
+![0.4 mm nozzle parts on print bed](images/printed-0.4mm-on-printer.jpeg)
+
+## Bambu Studio Preview
 
 ![Plate preview](images/preview-plates.jpeg)
 
@@ -29,7 +49,9 @@ The included 3MF was prepared with these settings:
 | Slicer | Bambu Studio 02.07.01.62 |
 | Printer profile | Bambu Lab A1 |
 | Plate | Textured PEI Plate |
-| Nozzle | 0.4 mm |
+| Nozzle in included profile | 0.4 mm |
+| Recommended nozzle at original scale | 0.2 mm |
+| Recommended scale for 0.4 mm nozzle | 120% or larger |
 | Layer height | 0.12 mm |
 | First layer height | 0.2 mm |
 | Filament | PLA |
@@ -45,8 +67,11 @@ More notes are in [`docs/print-guide.md`](docs/print-guide.md) and [`docs/assemb
 
 ```text
 models/
-  victory-swallow-2_20cm_4color_v1.0.0.3mf
+  victory-swallow-2_20cm_4color_v1.1.0.3mf
 images/
+  printed-0.4mm-assembled-main.jpeg
+  printed-0.4mm-assembled-detail.jpeg
+  printed-0.4mm-on-printer.jpeg
   preview-assembled.jpeg
   preview-plates.jpeg
 docs/
