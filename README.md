@@ -36,6 +36,10 @@ The assembled photos were printed with a 0.4 mm nozzle. They show that the model
 
 ![0.4 mm nozzle parts on print bed](images/printed-0.4mm-on-printer.jpeg)
 
+Lower oblique view / 斜下视图：
+
+![Lower oblique view](images/printed-0.4mm-lower-oblique-view.jpeg)
+
 ## Bambu Studio Preview
 
 ![Plate preview](images/preview-plates.jpeg)
@@ -72,6 +76,7 @@ images/
   printed-0.4mm-assembled-main.jpeg
   printed-0.4mm-assembled-detail.jpeg
   printed-0.4mm-on-printer.jpeg
+  printed-0.4mm-lower-oblique-view.jpeg
   preview-assembled.jpeg
   preview-plates.jpeg
 docs/
